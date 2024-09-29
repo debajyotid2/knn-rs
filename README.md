@@ -4,7 +4,6 @@ An implementation of classification using [k-Nearest Neighbors](https://en.wikip
 
 ## Algorithm
 
-```
 1. Load "training" data ($N$ labeled data points $x_i$, $y_i$).
 2. Initialize $k$, the number of neighbors to consider.
 3. For a given "test" data point $x_j$, to find its predicted label $y_j$, for $i = 1..N$,   
@@ -13,7 +12,6 @@ An implementation of classification using [k-Nearest Neighbors](https://en.wikip
 4. Sort $D_j$ by distance values.
 5. Get top $k$ rows from sorted array.
 6. Find the class that is the most frequent of these rows. This is $y_{j}$.
-```
 
 ## Example usage
 
